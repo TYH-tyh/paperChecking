@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/paperChecking
+  mvc:
+    view:
+      prefix: /WEB-INF/JSP/
+      suffix: .jsp
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+      enabled: false
+server:
+  port: 8888
