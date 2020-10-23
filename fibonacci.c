@@ -16,8 +16,9 @@ int main()
 {
 	int n = 0;
 	int ret = 0;
+	printf("请输入一个数：");
 	scanf("%d", &n);
 	ret = fibonacci(n);
-	printf("ret=%d", ret);
+	printf("斐波拉契数列的第五个数是：%d", ret);
 	return 0;
 }
